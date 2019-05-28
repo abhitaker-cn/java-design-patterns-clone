@@ -29,8 +29,8 @@ package com.iluwatar.command;
  */
 public class ShrinkSpell extends Command {
 
-  private Size oldSize;
-  private Target target;
+  Size oldSize;
+  Target target;
 
   @Override
   public void execute(Target target) {

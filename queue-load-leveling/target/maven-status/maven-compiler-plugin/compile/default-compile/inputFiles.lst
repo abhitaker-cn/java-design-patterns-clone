@@ -1,6 +1,2 @@
-/home/abhitaker/Desktop/GITHUB/java-design-patterns-clone/queue-load-leveling/src/main/java/com/iluwatar/queue/load/leveling/App.java
-/home/abhitaker/Desktop/GITHUB/java-design-patterns-clone/queue-load-leveling/src/main/java/com/iluwatar/queue/load/leveling/ServiceExecutor.java
-/home/abhitaker/Desktop/GITHUB/java-design-patterns-clone/queue-load-leveling/src/main/java/com/iluwatar/queue/load/leveling/Task.java
-/home/abhitaker/Desktop/GITHUB/java-design-patterns-clone/queue-load-leveling/src/main/java/com/iluwatar/queue/load/leveling/TaskGenerator.java
 /home/abhitaker/Desktop/GITHUB/java-design-patterns-clone/queue-load-leveling/src/main/java/com/iluwatar/queue/load/leveling/Message.java
 /home/abhitaker/Desktop/GITHUB/java-design-patterns-clone/queue-load-leveling/src/main/java/com/iluwatar/queue/load/leveling/MessageQueue.java

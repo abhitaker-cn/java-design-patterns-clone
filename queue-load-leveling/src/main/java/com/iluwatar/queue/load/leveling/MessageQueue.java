@@ -36,7 +36,7 @@ import org.slf4j.LoggerFactory;
  */
 public class MessageQueue {
   
-  private static final Logger LOGGER = LoggerFactory.getLogger(App.class);
+  private static final Logger LOGGER = LoggerFactory.getLogger(MessageQueue.class);
   
   BlockingQueue<Message> blkQueue;
   
