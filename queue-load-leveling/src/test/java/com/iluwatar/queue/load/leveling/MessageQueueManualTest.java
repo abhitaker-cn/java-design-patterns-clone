@@ -1,10 +1,10 @@
 package com.iluwatar.queue.load.leveling;
 
-import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.Test;
 
-import static org.mockito.Mockito.*;
+import static org.junit.Assert.assertEquals;
+
 
 public class MessageQueueManualTest {
 
