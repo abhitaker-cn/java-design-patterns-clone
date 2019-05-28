@@ -33,11 +33,18 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  */
 public class MessageQueueTest {
 
+  @Mock
+  BlockingQueue<Message> blkQueue;
+
+  @InjectMock
+  MessageQueue msgQueue;
+
   @Test
   public void messageQueueTest() {
     
     MessageQueue msgQueue = new MessageQueue();
-    
+
+    Mockito.when(blkQueue.add(any))
     // submit message
     msgQueue.submitMsg(new Message("MessageQueue Test"));
     
