@@ -22,7 +22,11 @@
  */
 package com.iluwatar.twin;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.runners.MockitoJUnitRunner;
 
 import static java.lang.Thread.UncaughtExceptionHandler;
 import static java.lang.Thread.sleep;
@@ -36,22 +40,21 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoMoreInteractions;
 import static org.mockito.Mockito.verifyZeroInteractions;
 
-/**
- * Date: 12/30/15 - 18:55 PM
- *
- * @author Jeroen Meulemeester
- */
+
+@RunWith(MockitoJUnitRunner.class)
 public class BallThreadTest {
 
-  /**
-   * Verify if the {@link BallThread} can be resumed
-   */
+
+  @Mock
+  BallItem ballItem;
+
+  @InjectMocks
+  BallThread ballThread;
+
   @Test
   public void testSuspend() throws Exception {
     assertTimeout(ofMillis(5000), () -> {
-      final BallThread ballThread = new BallThread();
 
-      final BallItem ballItem = mock(BallItem.class);
       ballThread.setTwin(ballItem);
 
       ballThread.start();
@@ -69,16 +72,9 @@ public class BallThreadTest {
     });
   }
 
-  /**
-   * Verify if the {@link BallThread} can be resumed
-   */
   @Test
   public void testResume() {
     assertTimeout(ofMillis(5000), () -> {
-      final BallThread ballThread = new BallThread();
-
-      final BallItem ballItem = mock(BallItem.class);
-      ballThread.setTwin(ballItem);
 
       ballThread.suspendMe();
       ballThread.start();
@@ -98,13 +94,10 @@ public class BallThreadTest {
     });
   }
 
-  /**
-   * Verify if the {@link BallThread} is interruptible
-   */
   @Test
   public void testInterrupt() {
     assertTimeout(ofMillis(5000), () -> {
-      final BallThread ballThread = new BallThread();
+
       final UncaughtExceptionHandler exceptionHandler = mock(UncaughtExceptionHandler.class);
       ballThread.setUncaughtExceptionHandler(exceptionHandler);
       ballThread.setTwin(mock(BallItem.class));
