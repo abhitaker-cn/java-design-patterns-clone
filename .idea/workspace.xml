@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e8da3ad-5366-4d80-b3e7-1d5ede5b316d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/collection-pipeline/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/collection-pipeline/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection-pipeline/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/collection-pipeline/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection-pipeline/target/surefire-reports/TEST-com.iluwatar.collectionpipeline.ImperativeProgrammingTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/collection-pipeline/target/surefire-reports/TEST-com.iluwatar.collectionpipeline.ImperativeProgrammingTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collection-pipeline/target/surefire-reports/com.iluwatar.collectionpipeline.ImperativeProgrammingTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/collection-pipeline/target/surefire-reports/com.iluwatar.collectionpipeline.ImperativeProgrammingTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/command/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command/target/surefire-reports/TEST-com.iluwatar.command.CommandTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/command/target/surefire-reports/TEST-com.iluwatar.command.CommandTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command/target/surefire-reports/TEST-com.iluwatar.command.ShrinkSpellTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/command/target/surefire-reports/TEST-com.iluwatar.command.ShrinkSpellTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command/target/surefire-reports/com.iluwatar.command.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/command/target/surefire-reports/com.iluwatar.command.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command/target/surefire-reports/com.iluwatar.command.CommandTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/command/target/surefire-reports/com.iluwatar.command.CommandTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/command/target/surefire-reports/com.iluwatar.command.ShrinkSpellTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/command/target/surefire-reports/com.iluwatar.command.ShrinkSpellTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flyweight/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/flyweight/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flyweight/target/surefire-reports/TEST-com.iluwatar.flyweight.PotionFactoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flyweight/target/surefire-reports/TEST-com.iluwatar.flyweight.PotionFactoryTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flyweight/target/surefire-reports/com.iluwatar.flyweight.PotionFactoryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/flyweight/target/surefire-reports/com.iluwatar.flyweight.PotionFactoryTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutex/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/mutex/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mutex/target/surefire-reports/com.iluwatar.mutex.JarTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mutex/target/surefire-reports/com.iluwatar.mutex.JarTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue-load-leveling/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/queue-load-leveling/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue-load-leveling/target/surefire-reports/TEST-com.iluwatar.queue.load.leveling.MessageQueueManualTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/queue-load-leveling/target/surefire-reports/TEST-com.iluwatar.queue.load.leveling.MessageQueueManualTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue-load-leveling/target/surefire-reports/TEST-com.iluwatar.queue.load.leveling.MessageQueueTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/queue-load-leveling/target/surefire-reports/TEST-com.iluwatar.queue.load.leveling.MessageQueueTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue-load-leveling/target/surefire-reports/com.iluwatar.queue.load.leveling.MessageQueueManualTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/queue-load-leveling/target/surefire-reports/com.iluwatar.queue.load.leveling.MessageQueueManualTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queue-load-leveling/target/surefire-reports/com.iluwatar.queue.load.leveling.MessageQueueTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/queue-load-leveling/target/surefire-reports/com.iluwatar.queue.load.leveling.MessageQueueTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/state/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/state/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/state/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state/target/surefire-reports/TEST-com.iluwatar.state.MammothTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/state/target/surefire-reports/TEST-com.iluwatar.state.MammothTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/state/target/surefire-reports/com.iluwatar.state.MammothTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/state/target/surefire-reports/com.iluwatar.state.MammothTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twin/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/twin/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/twin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twin/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/twin/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twin/target/surefire-reports/TEST-com.iluwatar.twin.BallThreadTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/twin/target/surefire-reports/TEST-com.iluwatar.twin.BallThreadTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twin/target/surefire-reports/com.iluwatar.twin.BallThreadTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/twin/target/surefire-reports/com.iluwatar.twin.BallThreadTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value-object/src/main/java/com/iluwatar/value/object/HeroStat.java" beforeDir="false" afterPath="$PROJECT_DIR$/value-object/src/main/java/com/iluwatar/value/object/HeroStat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/value-object/src/test/java/com/iluwatar/value/object/HeroStatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/value-object/src/test/java/com/iluwatar/value/object/HeroStatTest.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/value-object/src/test/java/com/iluwatar/value/object/HeroStatTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2366#2367#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/state/src/test/java/com/iluwatar/state/MammothTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="28" selection-end-column="24" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/value-object/src/main/java/com/iluwatar/value/object/HeroStat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/value-object/src/main/java/com/iluwatar/value/object/HeroStat.java" />
+        <option value="$PROJECT_DIR$/value-object/src/test/java/com/iluwatar/value/object/HeroStatTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/java-design-patterns-clone.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="293" />
+    <option name="y" value="53" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="state" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="state" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="state" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="state" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="state" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="state" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="iluwatar" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="state" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="state" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="state" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="state" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="iluwatar" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="state" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="iluwatar" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="state" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="value-object" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="value-object" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="value-object" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="value-object" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="value-object" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="value-object" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="iluwatar" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="value-object" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="iluwatar" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="value" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="value-object" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="iluwatar" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="value" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="object" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="value-object" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="value-object" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="value-object" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="value-object" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="iluwatar" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="value-object" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="iluwatar" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="value" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="java-design-patterns-clone" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="java-design-patterns-clone" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="value-object" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="iluwatar" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="value" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="object" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e8da3ad-5366-4d80-b3e7-1d5ede5b316d" name="Default Changelist" comment="" />
+      <created>1559135398796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559135398796</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/value-object/src/main/java/com/iluwatar/value/object/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-131">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/state/src/test/java/com/iluwatar/adapter/AdapterPatternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/state/src/test/java/com/iluwatar/state/MammothTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="28" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/value-object/src/main/java/com/iluwatar/value/object/HeroStat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/value-object/src/test/java/com/iluwatar/value/object/HeroStatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2366#2367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

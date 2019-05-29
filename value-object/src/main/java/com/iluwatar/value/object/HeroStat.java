@@ -33,9 +33,9 @@ public class HeroStat {
 
   // Stats for a hero
 
-  private int strength;
-  private int intelligence;
-  private int luck;
+  int strength;
+  int intelligence;
+  int luck;
 
   // All constructors must be private.
   private HeroStat(int strength, int intelligence, int luck) {

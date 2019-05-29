@@ -29,29 +29,28 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.not;
 import static org.junit.Assert.assertThat;
 
-import static org.mockito.Mock;
-import static org.mockito.Mockito.*;
+import org.mockito.Mock;
+import org.mockito.Mockito.*;
+import org.mockito.runners.MockitoJUnitRunner;
+import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
+import org.junit.Before;
 
 /**
  * Unit test for HeroStat.
  */
+@RunWith(MockitoJUnitRunner.class)
 public class HeroStatTest {
-
-  /**
-   * Tester for equals() and hashCode() methods of a class. Using guava's EqualsTester.
-   * 
-   * @see <a href="http://static.javadoc.io/com.google.guava/guava-testlib/19.0/com/google/common/testing/EqualsTester.html">
-   * http://static.javadoc.io/com.google.guava/guava-testlib/19.0/com/google/common/testing/EqualsTester.html
-   * </a>
-   *
-   *
-   */
-
-  @Mock
   int strength, intelligence, luck;
+  HeroStat heroStat;
 
-  @InjectMocks
-  HeroStat heroStat = HeroStat.valueOf(strength, intelligence, luck);
+  @Before
+  public void setUp() {
+    strength = 1;
+    intelligence = 2;
+    luck = 3;
+    heroStat = HeroStat.valueOf(strength, intelligence, luck);
+  }
 
   @Test
   public void testGets() {
@@ -68,12 +67,7 @@ public class HeroStatTest {
 
   @Test
   public void testHash() {
-    final int prime = 31;
-    int result = 1;
-    result = prime * result + intelligence;
-    result = prime * result + luck;
-    result = prime * result + strength;
-    assertThat(heroStat.hashCode(), is(result));
+    assertThat(heroStat.hashCode(), is(31807));
   }
 
   @Test

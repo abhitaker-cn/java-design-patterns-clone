@@ -61,7 +61,11 @@
         <module>command</module>
         <module>mutex</module>
         <module>queue-load-leveling</module>
-	<module>collection-pipeline</module>
+	    <module>collection-pipeline</module>
+        <module>twin</module>
+        <module>state</module>
+        <module>adapter</module>
+	<module>value-object</module>
     </modules>
 
     <repositories>
