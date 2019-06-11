@@ -1,7 +1,7 @@
-package com.iluwatar.queue.load.leveling;
+package com.iluwatar.flyweight;
 
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.BlockingQueue;
+import java.util.EnumMap;
+import java.util.Map;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -18,8 +18,6 @@ import org.mockito.runners.MockitoJUnitRunner;
 import org.powermock.api.mockito.PowerMockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.nullValue;
@@ -32,11 +30,11 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
-public class MessageQueueAutoTest {
+public class PotionFactoryAutoTest {
     @InjectMocks
-    private MessageQueue messageQueue;
+    private PotionFactory potionFactory;
 
-    private MessageQueue messageQueueSpy = spy(messageQueue);
+    private PotionFactory potionFactorySpy = spy(potionFactory);
 
     private final ErrorCollector errorCollector = new ErrorCollector();
 
@@ -48,36 +46,5 @@ public class MessageQueueAutoTest {
     @Before
     public void setUp() throws Exception {
         MockitoAnnotations.initMocks(this);
-    }
-
-    /**
-    * This test verifies the following
-    * Try block on line {statement.line}
-    */
-    @Test
-    public void givenMsgWhenSubmitMsgThenVerifyResult() {
-        // Arrange
-        Message msg = mock(Message.class);
-        /*Writing test for try block. Reuse mocks to create tests for catch clauses*/
-
-        // Act
-        messageQueue.submitMsg(msg);
-    }
-
-    /**
-    * This test verifies the following
-    * Try block on line {statement.line}
-    */
-    @Test
-    public void givenWhenRetrieveMsgThenVerifyResult() {
-        // Arrange
-        /*Writing test for try block. Reuse mocks to create tests for catch clauses*/
-
-        // Act
-        Message result = messageQueue.retrieveMsg();
-
-        // Assert
-        Message expected = /* TODO: Create the expected result for this test */;
-        errorCollector.checkThat(result, equalTo(expected));
     }
 }
