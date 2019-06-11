@@ -53,12 +53,30 @@ public class MessageQueueAutoTest {
     /**
     * This test verifies the following
     * Try block on line {statement.line}
+    * If condition(54) : null != msg with value True.
     */
     @Test
-    public void givenMsgWhenSubmitMsgThenVerifyResult() {
+    public void givenMsgAndConditionOnLine54TrueWhenSubmitMsgThenVerifyResult() {
         // Arrange
         Message msg = mock(Message.class);
         /*Writing test for try block. Reuse mocks to create tests for catch clauses*/
+        // Set values such that condition (null != msg)==True
+
+        // Act
+        messageQueue.submitMsg(msg);
+    }
+
+    /**
+    * This test verifies the following
+    * Try block on line {statement.line}
+    * If condition(54) : null != msg with value False.
+    */
+    @Test
+    public void givenMsgAndConditionOnLine54FalseWhenSubmitMsgThenVerifyResult() {
+        // Arrange
+        Message msg = mock(Message.class);
+        /*Writing test for try block. Reuse mocks to create tests for catch clauses*/
+        // Set values such that condition (null != msg)==False
 
         // Act
         messageQueue.submitMsg(msg);

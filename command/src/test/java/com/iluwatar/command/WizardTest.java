@@ -84,7 +84,7 @@ public class WizardAutoTest {
     @Test
     public void givenAndConditionOnLine60TrueWhenUndoLastSpellThenVerifyResult() {
         // Arrange
-        // Set values such that condition !undoStack.isEmpty()==True
+        // Set values such that condition (!undoStack.isEmpty())==True
         /* Type is not known */ previousSpell = /* TODO: Create a mock object to be returned. */;
         when(undoStack.pollLast()).thenReturn(previousSpell);
 
@@ -104,7 +104,7 @@ public class WizardAutoTest {
     @Test
     public void givenAndConditionOnLine60FalseWhenUndoLastSpellThenVerifyResult() {
         // Arrange
-        // Set values such that condition !undoStack.isEmpty()==False
+        // Set values such that condition (!undoStack.isEmpty())==False
 
         // Act
         wizard.undoLastSpell();
@@ -117,7 +117,7 @@ public class WizardAutoTest {
     @Test
     public void givenAndConditionOnLine72TrueWhenRedoLastSpellThenVerifyResult() {
         // Arrange
-        // Set values such that condition !redoStack.isEmpty()==True
+        // Set values such that condition (!redoStack.isEmpty())==True
         /* Type is not known */ previousSpell = /* TODO: Create a mock object to be returned. */;
         when(redoStack.pollLast()).thenReturn(previousSpell);
 
@@ -137,7 +137,7 @@ public class WizardAutoTest {
     @Test
     public void givenAndConditionOnLine72FalseWhenRedoLastSpellThenVerifyResult() {
         // Arrange
-        // Set values such that condition !redoStack.isEmpty()==False
+        // Set values such that condition (!redoStack.isEmpty())==False
 
         // Act
         wizard.redoLastSpell();

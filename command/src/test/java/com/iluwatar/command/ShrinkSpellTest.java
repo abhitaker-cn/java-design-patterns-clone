@@ -77,7 +77,7 @@ public class ShrinkSpellAutoTest {
     @Test
     public void givenAndConditionOnLine44TrueWhenUndoThenVerifyResult() {
         // Arrange
-        // Set values such that condition oldSize != null && target != null==True
+        // Set values such that condition (oldSize != null && target != null)==True
         /* Type is not known */ temp = /* TODO: Create a mock object to be returned. */;
         when(target.getSize()).thenReturn(temp);
 
@@ -95,7 +95,7 @@ public class ShrinkSpellAutoTest {
     @Test
     public void givenAndConditionOnLine44FalseWhenUndoThenVerifyResult() {
         // Arrange
-        // Set values such that condition oldSize != null && target != null==False
+        // Set values such that condition (oldSize != null && target != null)==False
 
         // Act
         shrinkSpell.undo();
