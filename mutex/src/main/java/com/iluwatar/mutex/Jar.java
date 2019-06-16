@@ -32,7 +32,7 @@ public class Jar {
   /**
    * The lock which must be acquired to access the beans resource.
    */
-  private final Lock lock;
+  Lock lock;
 
   /**
    * The resource within the jar.

@@ -55,22 +55,14 @@ public class App {
     
     List<String> modelsImperative = ImperativeProgramming.getModelsAfter2000(cars);
     LOGGER.info(modelsImperative.toString());
-
-    List<String> modelsFunctional = FunctionalProgramming.getModelsAfter2000(cars);
-    LOGGER.info(modelsFunctional.toString());
     
     Map<Category, List<Car>> groupingByCategoryImperative = ImperativeProgramming.getGroupingOfCarsByCategory(cars);
     LOGGER.info(groupingByCategoryImperative.toString());
 
-    Map<Category, List<Car>> groupingByCategoryFunctional = FunctionalProgramming.getGroupingOfCarsByCategory(cars);
-    LOGGER.info(groupingByCategoryFunctional.toString());
-    
     Person john = new Person(cars);
     
     List<Car> sedansOwnedImperative = ImperativeProgramming.getSedanCarsOwnedSortedByDate(Arrays.asList(john));
     LOGGER.info(sedansOwnedImperative.toString());
 
-    List<Car> sedansOwnedFunctional = FunctionalProgramming.getSedanCarsOwnedSortedByDate(Arrays.asList(john));
-    LOGGER.info(sedansOwnedFunctional.toString());
   }
 }
