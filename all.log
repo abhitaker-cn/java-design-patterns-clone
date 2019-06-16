@@ -1,0 +1,10 @@
+2019-06-13 15:53:20.416 [main] DEBUG com.aurea.testgenerator.extensions.AssignExprExtension - Adding AssignExpr::targetsThis
+2019-06-13 15:53:20.938 [main] DEBUG com.aurea.testgenerator.extensions.ConstructorDeclarationExtension - Adding ConstructorDeclaration::isNameOfArgument
+2019-06-13 15:53:21.074 [main] DEBUG com.aurea.testgenerator.extensions.EnumDeclarationExtension - Adding EnumDeclaration::accessFirst
+2019-06-13 15:53:21.158 [main] DEBUG com.aurea.testgenerator.extensions.FieldDeclarationExtension - Adding FieldDeclaration::nameAsString
+2019-06-13 15:53:21.265 [main] DEBUG com.aurea.testgenerator.extensions.FieldDeclarationExtension - Adding FieldDeclaration::getType
+2019-06-13 15:53:21.275 [main] DEBUG com.aurea.testgenerator.extensions.FieldDeclarationExtension - Adding FieldDeclaration::getVariableByName
+2019-06-13 15:53:21.452 [main] DEBUG com.aurea.testgenerator.extensions.ResolvedEnumDeclarationExtension - Adding EnumDeclaration::accessFirst
+2019-06-13 15:53:21.632 [main] DEBUG com.aurea.testgenerator.extensions.TypeDeclarationExtension - Adding TypeDeclaration::isAnonymous
+2019-06-13 15:53:21.703 [main] DEBUG com.aurea.testgenerator.extensions.VariableDeclaratorExtension - Adding VariableDeclarator::getInitializerText
+2019-06-13 15:53:30.075 [main] INFO  Main - Executed in 1.057 min

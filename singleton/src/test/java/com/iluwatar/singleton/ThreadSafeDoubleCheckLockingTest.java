@@ -1,6 +1,6 @@
 /**
  * The MIT License
- * Copyright (c) 2014 Ilkka Seppälä
+ * Copyright (c) 2014-2016 Ilkka Seppälä
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -20,25 +20,20 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package com.iluwatar.queue.load.leveling;
+package com.iluwatar.singleton;
 
+/**
+ * Date: 12/29/15 - 19:26 PM
+ *
+ * @author Jeroen Meulemeester
+ */
+public class ThreadSafeDoubleCheckLockingTest extends SingletonTest<ThreadSafeDoubleCheckLocking> {
 
-import org.junit.Test;
+  /**
+   * Create a new singleton test instance using the given 'getInstance' method
+   */
+  public ThreadSafeDoubleCheckLockingTest() {
+    super(ThreadSafeDoubleCheckLocking::getInstance);
+  }
 
-import static org.junit.Assert.assertEquals;
-
-
-public class MessageQueueManualTest {
-
-    @Test
-    public void messageQueueManualTest() {
-
-        MessageQueue msgQueue = new MessageQueue();
-
-        // submit message
-        msgQueue.submitMsg(new Message("MessageQueue Test"));
-
-        // retrieve message
-        assertEquals("MessageQueue Test", msgQueue.retrieveMsg().getMsg());
-    }
 }

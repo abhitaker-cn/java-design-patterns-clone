@@ -1,6 +1,6 @@
 /**
  * The MIT License
- * Copyright (c) 2014 Ilkka Seppälä
+ * Copyright (c) 2014-2016 Ilkka Seppälä
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -20,25 +20,20 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package com.iluwatar.queue.load.leveling;
+package com.iluwatar.singleton;
 
+/**
+ * Enum based singleton implementation. Effective Java 2nd Edition (Joshua Bloch) p. 18
+ *
+ * This implementation is thread safe, however adding any other method and its thread safety
+ * is developers responsibility.
+ */
+public enum EnumIvoryTower {
 
-import org.junit.Test;
+  INSTANCE;
 
-import static org.junit.Assert.assertEquals;
-
-
-public class MessageQueueManualTest {
-
-    @Test
-    public void messageQueueManualTest() {
-
-        MessageQueue msgQueue = new MessageQueue();
-
-        // submit message
-        msgQueue.submitMsg(new Message("MessageQueue Test"));
-
-        // retrieve message
-        assertEquals("MessageQueue Test", msgQueue.retrieveMsg().getMsg());
-    }
+  @Override
+  public String toString() {
+    return getDeclaringClass().getCanonicalName() + "@" + hashCode();
+  }
 }
